@@ -135,7 +135,7 @@ function Client() {
                 <img
                   src={client.src}
                   alt={client.name}
-                  className="w-full h-full object-contain border-l-2"
+                  className="w-full h-full object-contain"
                   style={{ aspectRatio: "3/2" }}
                   data-aos="zoom-in"
                 />

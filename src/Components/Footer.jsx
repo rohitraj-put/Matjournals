@@ -1,6 +1,7 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import logo from "../assets/Images/mat.png";
 
 const Footer = () => {
   return (
@@ -9,16 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-2/3 lg:w-3/12 mb-10">
             <a href="#" className="mb-6 inline-block max-w-[160px]">
-              <img
-                src="https://matjournals.com/img/mat.jpg"
-                alt="logo"
-                className="dark:hidden"
-              />
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-                alt="logo"
-                className="hidden dark:block"
-              />
+              <img src={logo} alt="logo" className="dark:hidden bg-white p-2" />
             </a>
             <p className="mb-7 text-base text-white dark:text-gray-400">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.

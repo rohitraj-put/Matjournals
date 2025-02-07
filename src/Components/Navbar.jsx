@@ -4,6 +4,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { IoMdCheckboxOutline } from "react-icons/io";
+import logo from "../assets/Images/mat.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
       <div className="mx-auto flex justify-between items-center">
         {/* Brand Name */}
         <a href="/" className="text-gray-800 text-lg font-semibold">
-          <img src="https://matjournals.com/img/mat.jpg" alt="logo" />
+          <img src={logo} alt="logo" />
         </a>
 
         {/* Hamburger Menu for mobile */}

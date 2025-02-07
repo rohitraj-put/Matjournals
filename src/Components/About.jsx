@@ -1,6 +1,7 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
+import aboutImg from "../assets/Images/about-img.jpg";
 
 function About() {
   useEffect(() => {
@@ -62,7 +63,7 @@ function About() {
             >
               <img
                 className="w-full h-full rounded-lg shadow-lg object-cover  duration-700"
-                src="https://matjournals.com/img/about-img.jpg"
+                src={aboutImg}
                 alt="About us"
               />
             </div>

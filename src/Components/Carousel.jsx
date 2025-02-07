@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import { IoMdArrowUp } from "react-icons/io";
 
 function Carousel() {
   const images = [
@@ -132,6 +133,9 @@ function Carousel() {
           </div>
         ))}
       </Slider>
+      <div className="fixed bottom-2 right-2 bg-blue-800 shadow-md text-white p-2 rounded-full z-50 hover:bg-white hover:text-blue-800">
+        <IoMdArrowUp size={32} />
+      </div>
     </div>
   );
 }

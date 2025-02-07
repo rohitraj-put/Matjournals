@@ -4,6 +4,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import client1 from "../assets/Images/client-1.png";
+import client2 from "../assets/Images/client-2.png";
+import client3 from "../assets/Images/client-3.png";
+// import client4 from "../assets/Images/client-4.png";
+import client5 from "../assets/Images/client-5.png";
+import client6 from "../assets/Images/client-6.png";
+import client7 from "../assets/Images/client-7.png";
+import client8 from "../assets/Images/client-8.png";
+import client9 from "../assets/Images/client-9.png";
+import client10 from "../assets/Images/client-10.png";
+import client11 from "../assets/Images/client-11.png";
+import client12 from "../assets/Images/client-12.png";
+import client13 from "../assets/Images/client-13.png";
+import client14 from "../assets/Images/client-14.png";
+import client15 from "../assets/Images/client-15.png";
+import client16 from "../assets/Images/client-16.png";
+import client17 from "../assets/Images/client-17.png";
+import client19 from "../assets/Images/client-19.png";
+import client20 from "../assets/Images/client-20.png";
 
 function Client() {
   const settings = {
@@ -45,52 +64,58 @@ function Client() {
 
   const clients = [
     {
-      src: "https://matjournals.com/img/clients/client-2.png",
+      src: client1,
     },
     {
-      src: "https://matjournals.com/img/clients/client-3.png",
+      src: client2,
     },
     {
-      src: "https://matjournals.com/img/clients/client-19.png",
+      src: client3,
     },
     {
-      src: "https://matjournals.com/img/clients/client-5.png",
+      src: client5,
     },
     {
-      src: "https://matjournals.com/img/clients/client-6.png",
+      src: client6,
     },
     {
-      src: "https://matjournals.com/img/clients/client-7.png",
+      src: client7,
     },
     {
-      src: "https://matjournals.com/img/clients/client-8.png",
+      src: client8,
     },
     {
-      src: "https://matjournals.com/img/clients/client-9.png",
+      src: client9,
     },
     {
-      src: "https://matjournals.com/img/clients/client-10.png",
+      src: client10,
     },
     {
-      src: "https://matjournals.com/img/clients/client-11.png",
+      src: client11,
     },
     {
-      src: "https://matjournals.com/img/clients/client-12.png",
+      src: client12,
     },
     {
-      src: "https://matjournals.com/img/clients/client-13.png",
+      src: client13,
     },
     {
-      src: "https://matjournals.com/img/clients/client-14.png",
+      src: client14,
     },
     {
-      src: "https://matjournals.com/img/clients/client-15.png",
+      src: client15,
     },
     {
-      src: "https://matjournals.com/img/clients/client-1.png",
+      src: client16,
     },
     {
-      src: "https://matjournals.com/img/clients/client-20.png",
+      src: client17,
+    },
+    {
+      src: client19,
+    },
+    {
+      src: client20,
     },
   ];
 
@@ -106,11 +131,11 @@ function Client() {
         <div className="slider-container">
           <Slider {...settings} className="overflow-hidden">
             {clients.map((client, index) => (
-              <div className="p-5" key={index}>
+              <div className="p-5 bg-white shadow-md" key={index}>
                 <img
                   src={client.src}
                   alt={client.name}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain border-l-2"
                   style={{ aspectRatio: "3/2" }}
                   data-aos="zoom-in"
                 />

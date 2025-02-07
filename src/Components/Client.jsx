@@ -139,7 +139,6 @@ function Client() {
                   style={{ aspectRatio: "3/2" }}
                   data-aos="zoom-in"
                 />
-                <p className="text-center mt-2 font-semibold">{client.name}</p>
               </div>
             ))}
           </Slider>

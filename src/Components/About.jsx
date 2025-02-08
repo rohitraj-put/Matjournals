@@ -24,7 +24,7 @@ function About() {
       </div>
       <div className=" bg-gray-100 py-16 bg-[url(https://img.freepik.com/premium-photo/vintage-typewriter-stack-books-wooden-desk_239711-30950.jpg?w=1060)] bg-no-repeat bg-cover bg-fixed overflow-hidden">
         <div className="  mx-auto px-4  bg-[#22222240] hover:bg-red-600x ">
-          <div className="flex flex-col md:flex-row justify-around items-start gap-8">
+          <div className="flex flex-col md:flex-row justify-around items-center gap-8">
             <div
               className="bg-white rounded-lg shadow-lg p-6 w-full md:w-2/3 "
               data-aos="fade-right"
@@ -58,11 +58,11 @@ function About() {
               </ul>
             </div>
             <div
-              className="w-full  h-[64vh] md:w-1/2 overflow-hidden"
+              className="w-full    md:w-1/2 overflow-hidden"
               data-aos="fade-left"
             >
               <img
-                className="w-full h-full rounded-lg shadow-lg   duration-700"
+                className="w-full  rounded-lg shadow-lg   duration-700"
                 src={aboutImg}
                 alt="About us"
               />

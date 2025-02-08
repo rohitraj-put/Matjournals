@@ -62,7 +62,7 @@ function About() {
               data-aos="fade-left"
             >
               <img
-                className="w-full h-full rounded-lg shadow-lg object-cover  duration-700"
+                className="w-full h-full rounded-lg shadow-lg   duration-700"
                 src={aboutImg}
                 alt="About us"
               />

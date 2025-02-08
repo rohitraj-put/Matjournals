@@ -131,7 +131,7 @@ function Client() {
         <div className="slider-container">
           <Slider {...settings} className="overflow-hidden">
             {clients.map((client, index) => (
-              <div className="p-5 bg-white shadow-md" key={index}>
+              <div className="p-5 bg-white" key={index}>
                 <img
                   src={client.src}
                   alt={client.name}
